@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <style type="text/css">
+        	
+        	h1{text-align: center;color: purple}
+        	ol{}
+        	#table1,th,td{padding: 5px;border: 2px solid black;border-collapse: collapse}
+        	th{background-color:grey;color: white}
+        	tr:hover{background-color: yellow}
+        	@media print{
+        		.screen-only{display: none}
+        	}
+        	@media (max-width: 500px){.body1{background-image: url('taylor.jpg')}}
+        	@media (min-width: 501px){.body1{background-image: url('taylor1.jpg')}}
+
+        </style>
+    </head>
+
+    <body class='body1'>
+    	<h1>TAYLOR SWIFT</h1>
+    	<h3>Top Songs</h3>
+    	<ol class='screen-only'>
+    		<li> Love Story</li>
+    		<li> Blank Space</li>
+    		<li> I Knew You Were Trouble</li>
+    		<li> You Belong with Me</li>
+    		<li> Shake It Off </li>
+    	</ol>
+    	<table id='table1'; align="center">
+    		<tr>
+    			<th>Song Names</th>
+    			<th>Albums</th>
+    			<th>Year</th>
+			</tr>
+			<tr>
+				<td>Love Story</td>
+				<td>Fearless</td>
+				<td>2008</td>
+			</tr>
+			<tr>
+				<td>Blank Space</td>
+				<td>1989</td>
+				<td>2014</td>
+			</tr>
+			<tr>
+				<td>I Knew You Were Trouble</td>
+				<td>Red</td>
+				<td>2012</td>
+			</tr>
+			<tr>
+				<td>You Belong with Me</td>
+				<td>Fearless</td>
+				<td>2008</td>
+			</tr>
+			<tr>
+				<td>Shake It Off</td>
+				<td>1989</td>
+				<td>2014</td>
+			</tr>
+    		
+    	</table>
+        
+    </body>
+</html>
