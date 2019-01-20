@@ -1,0 +1,23 @@
+%Ellie_songs{
+padding:10px;
+margin:20px;
+
+
+}
+body{background-image:url('ellie.jpg')}
+
+h1{
+	@extend %Ellie_songs;
+	color: green;
+	text-align:center
+}
+div{
+	background-color:grey;
+
+	li{
+	@extend %Ellie_songs;
+	color: white;
+	}
+
+
+}

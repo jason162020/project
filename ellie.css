@@ -1,0 +1,22 @@
+div li, h1 {
+  padding: 10px;
+  margin: 20px;
+}
+
+body {
+  background-image: url("ellie.jpg");
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+div {
+  background-color: grey;
+}
+div li {
+  color: white;
+}
+
+/*# sourceMappingURL=ellie.css.map */

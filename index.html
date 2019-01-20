@@ -3,9 +3,11 @@
     <head>
         <title>My Webpage</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <style type="text/css">
-        	
-        	h1{text-align: center;color: purple}
+        	a{text-decoration: none}
+        	li{font-size: 30px;padding: 10px;color: black}
+        	h1{text-align: center;color: white}
         	ol{}
         	#table1,th,td{padding: 5px;border: 2px solid black;border-collapse: collapse}
         	th{background-color:grey;color: white}
@@ -13,21 +15,30 @@
         	@media print{
         		.screen-only{display: none}
         	}
-        	@media (max-width: 500px){.body1{background-image: url('taylor.jpg')}}
-        	@media (min-width: 501px){.body1{background-image: url('taylor1.jpg')}}
+        	@media (max-width: 500px){.body1{background-image: url('music.jpg');
+				background-repeat: no-repeat;
+				background-size: 100%}}
+        	@media (min-width: 501px){.body1{background-image: url('music.jpg');
+				background-repeat: no-repeat;
+				background-size: 100%}}
+
+
+
+        	
+
 
         </style>
     </head>
 
     <body class='body1'>
-    	<h1>TAYLOR SWIFT</h1>
-    	<h3>Top Songs</h3>
+    	<h1>MUSIC</h1>
+    	<h3>Top Singers</h3>
     	<ol class='screen-only'>
-    		<li> Love Story</li>
-    		<li> Blank Space</li>
-    		<li> I Knew You Were Trouble</li>
-    		<li> You Belong with Me</li>
-    		<li> Shake It Off </li>
+    		<li><a href='enrique.html' alt='Enrique page'>Enrique Iglesias</a></li>
+    		<li> <a href='taylor.html' alt='taylor page'>Taylor Swift</li>
+    		<li><a href='alan.html' alt='alan page'> Alan Walker</li>
+    		<li><a href='selena.html' alt='selena page'>Selena Gomez</li>
+    		<li><a href='ellie.html' alt='ellie page'> Ellie Goulding </li>
     	</ol>
     	<table id='table1'; align="center">
     		<tr>
